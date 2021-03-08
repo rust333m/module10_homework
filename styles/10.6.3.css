@@ -1,0 +1,61 @@
+#chat {
+  width: 435px;
+  margin: 15px auto;
+  padding: 20px;
+}
+.output {
+  margin: 20px 0;
+  border: 3px solid rgb(124, 190, 217);
+  padding: 10px;
+  height: 150px;
+  overflow-y: scroll;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.output > div {
+  max-width: 80%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 3px;
+  color: black;
+  
+}
+
+.output .recieved {
+  align-self: flex-start;
+  border: 3px solid rgb(124, 190, 217);
+  border-radius: 8px;
+}
+.output .sent {
+  align-self: flex-end;
+  border-radius: 8px;
+  border: 3px solid rgb(124, 190, 217);
+}
+
+.input input {
+  padding: 5px 5px;
+  border:3px solid rgb(124, 190, 217);
+  margin-right: 10px;
+  
+}
+.j-btn {
+  padding: 7px 10px;
+  background: rgb(124, 190, 217);
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.j-btn-geo {
+  padding: 7px 10px;
+  background: rgb(124, 190, 217);
+  border: none;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+}
